@@ -1,4 +1,4 @@
-package example11_8;
+package exercises.example11_8;
 
 import java.util.*;
 

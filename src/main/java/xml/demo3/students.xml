@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<students xmlns="students.xsd">
+	<student>
+		<sid>3</sid>
+		<sname>ABC</sname>
+		<email>abc@gomail.com</email>
+		<mobile>9848022338</mobile>
+	</student>
+</students>

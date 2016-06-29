@@ -1,0 +1,34 @@
+exceptions
+          unexpected events... raised in the prog during runtime....
+
+Exception
+       FileNotFoundException
+       ArrayIndexOutOfBoundException
+       NullpointerException
+       NoSuchElementFoundException
+       InterruptedException.
+       ..........
+       .........etc...
+
+we can handle in 2 ways
+          using   try, catch
+                      throws
+
+try...catch
+              the code which is possibility of raising exception...write in try block... and handle the exception in
+                    catch block.
+
+try
+{
+
+
+}
+catch(Exception e)
+{
+
+}
+
+=============
+throws ........ the code will throw the exception to the calling program...
+
+

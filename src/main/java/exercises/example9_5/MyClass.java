@@ -1,4 +1,4 @@
-package example9_5;
+package exercises.example9_5;
 
 public class MyClass extends Thread {
     static Object lock1 = new Object();

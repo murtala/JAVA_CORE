@@ -1,4 +1,4 @@
-package buffered;
+package io.buffered;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

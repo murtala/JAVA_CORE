@@ -1,4 +1,4 @@
-package example6_6;
+package exercises.example6_6;
 
 class Light {
 

@@ -1,9 +1,9 @@
-package lecture_3;
+package sen_964.lecture_3;
 
 // use Interface to find a biggest one
 import java.util.Random;
 
-import lecture_3.Person.Comparab;
+import sen_964.lecture_3.Person.Comparab;
 
 public class Lec3_8 {
 

@@ -1,4 +1,4 @@
-package com.pearson.test.eselenium.oc.tests;
+package utilities;
 
 import java.text.*;
 import java.util.*;

@@ -1,4 +1,4 @@
-package ch6_4;
+package exercises.ch6_4;
 
 class Light { /* ... */ }
 

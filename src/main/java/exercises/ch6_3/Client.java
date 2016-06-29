@@ -1,4 +1,4 @@
-package ch6_3;
+package exercises.ch6_3;
 
 //Exceptions
 class InvalidHoursException extends Exception {}

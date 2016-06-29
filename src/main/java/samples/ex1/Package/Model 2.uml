@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="Model 2">
+  <packagedElement xmi:type="uml:Package" xmi:id="_hG9hoKRLEeGd4ala_VFB8A" name="Package">
+    <packagedElement xmi:type="uml:Class" xmi:id="_hG-IsKRLEeGd4ala_VFB8A" name="Language_Basics">
+      <ownedComment xmi:id="_hHMyMKRLEeGd4ala_VFB8A">
+        <body>/** 
+ * @author Murtala
+ */
+</body>
+      </ownedComment>
+      <ownedOperation xmi:id="_hIrY4aRLEeGd4ala_VFB8A" name="main" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_hIvqUKRLEeGd4ala_VFB8A">
+          <body>/** 
+ * @param args the command line arguments
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_hIrY4qRLEeGd4ala_VFB8A" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hIrY46RLEeGd4ala_VFB8A" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hIrY5KRLEeGd4ala_VFB8A"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_hIvqUaRLEeGd4ala_VFB8A" name="arrays" visibility="public" isStatic="true"/>
+      <ownedOperation xmi:id="_hIxfgKRLEeGd4ala_VFB8A" name="primitiveDatatypes" visibility="public" isStatic="true"/>
+      <ownedOperation xmi:id="_hIytoKRLEeGd4ala_VFB8A" name="multiDimensionArray" visibility="public" isStatic="true"/>
+      <ownedOperation xmi:id="_hI0i0KRLEeGd4ala_VFB8A" name="controlFlowStatements" visibility="public" isStatic="true"/>
+      <ownedOperation xmi:id="_hI1w8KRLEeGd4ala_VFB8A" name="operators" visibility="public" isStatic="true"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ikaXEqRLEeGd4ala_VFB8A" name="Bicycle">
+      <ownedComment xmi:id="_ikaXE6RLEeGd4ala_VFB8A">
+        <body>/** 
+ * Created with IntelliJ IDEA.
+ * User: Murtala
+ * Date: 5/22/12
+ * Time: 1:16 PM
+ * To change this template use File | Settings | File Templates.
+ */
+</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_sx8iVaRLEeGd4ala_VFB8A" name="cadence" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_sx8iVqRLEeGd4ala_VFB8A" name="gear" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_syGTEKRLEeGd4ala_VFB8A" name="speed" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_syGTEaRLEeGd4ala_VFB8A" name="setCadence" visibility="public">
+        <ownedParameter xmi:id="_syGTEqRLEeGd4ala_VFB8A" name="newValue">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_syGTE6RLEeGd4ala_VFB8A" name="setGear" visibility="public">
+        <ownedParameter xmi:id="_syGTFKRLEeGd4ala_VFB8A" name="newValue">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_syGTFaRLEeGd4ala_VFB8A" name="applyBrake" visibility="public">
+        <ownedParameter xmi:id="_syGTFqRLEeGd4ala_VFB8A" name="decrement">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_syGTF6RLEeGd4ala_VFB8A" name="speedUp" visibility="public">
+        <ownedParameter xmi:id="_syGTGKRLEeGd4ala_VFB8A" name="increment">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jZOfMKRLEeGd4ala_VFB8A" name="MountainBike">
+      <generalization xmi:id="_japbgaRLEeGd4ala_VFB8A">
+        <general xmi:type="uml:Class" href="../../Model 2.uml#_japbgKRLEeGd4ala_VFB8A"/>
+      </generalization>
+      <ownedAttribute xmi:id="_jaqCkKRLEeGd4ala_VFB8A" name="seatHeight" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jarQsKRLEeGd4ala_VFB8A" name="setHeight" visibility="public">
+        <ownedParameter xmi:id="_jarQsaRLEeGd4ala_VFB8A" name="newValue">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

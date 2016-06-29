@@ -1,4 +1,4 @@
-package threads;
+package exercises.threads;
 
 class FooRunnable implements Runnable {
 	public void run() {

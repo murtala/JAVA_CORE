@@ -1,4 +1,4 @@
-package lecture_4;
+package sen_964.lecture_4;
 // ShowGridLayout.java: Demonstrate using GridLayout
 
 import javax.swing.JButton;

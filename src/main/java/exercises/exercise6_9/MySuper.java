@@ -1,4 +1,4 @@
-package exercise6_9;
+package exercises.exercise6_9;
 
 public class MySuper {
 

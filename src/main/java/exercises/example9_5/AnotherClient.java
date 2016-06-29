@@ -1,4 +1,4 @@
-package example9_5;
+package exercises.example9_5;
 //mport example9_2.Client;;
 class Counter extends Thread { 
 	private int currentValue;

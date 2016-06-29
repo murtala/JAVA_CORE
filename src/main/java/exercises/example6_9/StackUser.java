@@ -1,4 +1,4 @@
-package example6_9;
+package exercises.example6_9;
 
 interface IStack {                                                // (1)
     void   push(Object item);

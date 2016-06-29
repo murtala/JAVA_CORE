@@ -1,4 +1,4 @@
-package practice1;
+package exercises.practice1;
 
 //Filename: MyClass.java
 public class MyClass {

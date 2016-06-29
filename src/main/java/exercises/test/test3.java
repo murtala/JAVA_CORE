@@ -1,4 +1,4 @@
-package test;// using setters and getter.
+package exercises.test;// using setters and getter.
 
 public class test3 {
 	

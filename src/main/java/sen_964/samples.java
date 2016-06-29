@@ -1,3 +1,5 @@
+package sen_964;
+
 import java.util.Scanner;
 import java.util.Timer;
 import java.util.TimerTask;

@@ -1,4 +1,4 @@
-package ch6_2;
+package exercises.ch6_2;
 
 //String class is a subclass of Object class
 class Client {

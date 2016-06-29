@@ -1,4 +1,4 @@
-package example1_2;
+package exercises.example1_2;
 
 //Source Filename CharStack.java
 public class CharStack {

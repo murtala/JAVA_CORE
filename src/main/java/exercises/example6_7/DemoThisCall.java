@@ -1,4 +1,4 @@
-package example6_7;
+package exercises.example6_7;
 
 class Light {
     // Fields

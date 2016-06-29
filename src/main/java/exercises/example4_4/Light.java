@@ -1,4 +1,4 @@
-package example4_4;
+package exercises.example4_4;
 // difference this , and how to use it
 class Light {
     // Fields

@@ -1,10 +1,9 @@
-package assignment_4;
+package sen_964.assignment_4;
 
 import java.util.Scanner;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import lecture_4.RunMeTask;
 
 public class Valve {
 
@@ -44,7 +43,7 @@ public class Valve {
 	}
 
 	public void valve(Long delay, Long duration) {
-		Timer timer = new Timer();
+		final Timer timer = new Timer();
 		valveTimer = timer;
 		// timer.cancel();
 		TimerTask task = new TimerTask() {

@@ -1,3 +1,4 @@
+package bank;
 
 public abstract class BankImpl1 extends BankImpl {
 

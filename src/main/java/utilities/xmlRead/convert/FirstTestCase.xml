@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="308169" name="EV7_Take Exam_Student_Intro Page">
+	<node_order><![CDATA[10]]></node_order>
+	<externalid><![CDATA[1012]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[ Verify that the intro pages exist for the student take exam in ev7]]></summary>
+	<preconditions><![CDATA[ :An exam and student must be created.]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[ Alter the following fields in the DB or via an ev6 input:Exam Name Exam availability (when it is open / closed for taking) Time limit of the exam (if applicable) Number of takes (one or infinite) Exam Introduction / instructions]]></actions>
+	<expectedresults><![CDATA[ Verify through the UI that the intro page correctly reflects these values.]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[Access an ev7 exam.]]></actions>
+	<expectedresults><![CDATA[There should be an intro page with the following: Exam Name Exam availability (when it is open / closed for taking) Time limit of the exam (if applicable) Number of takes (one or infinite) Exam Introduction / instructions Begin Exam button]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[Click on 'Begin Exam' button in the first intro page.]]></actions>
+	<expectedresults><![CDATA[The user will be taken to the second intro page with another Begin Exam button and some hardcoded verbiage around taking exams.  (This will be done after the July release.  Currently clicking here takes the user into the exam - take side.)]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Status]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Test Type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Automation Test Type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Priority]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Risk]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Dependency Test Case]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Automation Path]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Test Data]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+</testcases>

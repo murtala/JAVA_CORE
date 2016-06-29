@@ -1,4 +1,4 @@
-package example9_5;
+package exercises.example9_5;
 
 class Worker implements Runnable {                              // (1)
     private Thread theThread;                                   // (2)

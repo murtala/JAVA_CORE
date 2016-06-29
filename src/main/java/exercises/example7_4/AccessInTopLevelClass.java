@@ -1,4 +1,4 @@
-package example7_4;
+package exercises.example7_4;
 
 //Filename: AccessInTopLevelClass.java
 public class AccessInTopLevelClass {                            // (1)

@@ -1,4 +1,4 @@
-package threads;
+package exercises.threads;
 
 public class Test {
 	

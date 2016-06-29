@@ -1,4 +1,4 @@
-package example9_3;
+package exercises.example9_3;
 
 class StackImpl { // (1)
 	private Object[] stackArray;

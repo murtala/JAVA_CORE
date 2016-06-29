@@ -1,4 +1,4 @@
-package example9_1;
+package exercises.example9_1;
 
 class Counter implements Runnable {
 

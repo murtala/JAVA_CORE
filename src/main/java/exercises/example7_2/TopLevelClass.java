@@ -1,4 +1,4 @@
-package example7_2;
+package exercises.example7_2;
 
 //Filename: TopLevelClass.java
 //package express;

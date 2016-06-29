@@ -1,4 +1,4 @@
-package deepClone;
+package clone.deepClone;
 
 public class DeptClient {
 	

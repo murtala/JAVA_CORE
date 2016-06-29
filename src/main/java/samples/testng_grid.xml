@@ -1,0 +1,20 @@
+<suite name="s1">
+  <test name="tst_ff">
+  <parameter name="browser" value="ff" />
+        <classes>
+               <class name="Google_grid" />
+                      <methods>
+                                 <include name="search" />                                 
+                      </methods>
+        </classes>
+   </test>
+  <test name="tst_ie">
+  <parameter name="browser" value="ie" />
+        <classes>
+               <class name="Google_grid" />
+                      <methods>
+                                 <include name="search" />                                 
+                      </methods>
+        </classes>
+   </test>
+  </suite>

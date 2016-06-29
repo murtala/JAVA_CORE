@@ -1,5 +1,4 @@
-package p1;
-
+package usingstatic.p1;
 public class Emp {
 
 	int no;

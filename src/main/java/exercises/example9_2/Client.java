@@ -1,4 +1,4 @@
-package example9_2;
+package exercises.example9_2;
 
 class Counter extends Thread {
 

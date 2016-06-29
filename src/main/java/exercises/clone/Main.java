@@ -1,4 +1,4 @@
-package clone;
+package exercises.clone;
 
 public class Main {
 

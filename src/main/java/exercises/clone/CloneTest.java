@@ -1,4 +1,4 @@
-package clone;
+package exercises.clone;
 
 import java.util.*;
 

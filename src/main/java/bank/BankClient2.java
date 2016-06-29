@@ -1,5 +1,5 @@
-package interfaces;
+package bank;
 
-public class BankClient {
+public class BankClient2 {
 
 }

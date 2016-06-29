@@ -1,3 +1,4 @@
+package threads;
 
 public class ChildThread extends Thread {
 

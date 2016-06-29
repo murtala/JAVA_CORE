@@ -1,4 +1,4 @@
-package lecture_3;
+package sen_964.lecture_3;
 
 //import people.*;
 

@@ -1,4 +1,4 @@
-package example11_9;
+package exercises.example11_9;
 
 public class UsableVNO {
     // Overrides equals(), but not hashCode().

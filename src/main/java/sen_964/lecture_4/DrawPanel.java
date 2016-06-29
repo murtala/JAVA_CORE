@@ -1,4 +1,4 @@
-package lecture_4;
+package sen_964.lecture_4;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;

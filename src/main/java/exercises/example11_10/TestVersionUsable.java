@@ -1,7 +1,7 @@
-package example11_10;
+package exercises.example11_10;
 
-import example11_8.TestVersionSimple;
-import example11_9.UsableVNO;
+import exercises.example11_8.TestVersionSimple;
+import exercises.example11_9.UsableVNO;
 
 public class TestVersionUsable extends TestVersionSimple {
     public static void main(String[] args) {

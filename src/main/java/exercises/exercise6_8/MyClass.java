@@ -1,4 +1,4 @@
-package exercise6_8;
+package exercises.exercise6_8;
 
 //Filename: MyClass.java
 public class MyClass extends MySuperclass {

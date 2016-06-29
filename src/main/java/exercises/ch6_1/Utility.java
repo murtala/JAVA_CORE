@@ -1,4 +1,4 @@
-package ch6_1;
+package exercises.ch6_1;
 
 class Light {                       // (1)
     // Instance fields

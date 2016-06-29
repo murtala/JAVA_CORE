@@ -1,4 +1,4 @@
-package lecture_4;
+package sen_964.lecture_4;
 import javax.swing.*; // JFrame is in javax.swing 
 
 import java.awt.*; // Dimension is in java.awt 

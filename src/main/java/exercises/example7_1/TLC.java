@@ -1,4 +1,4 @@
-package example7_1;
+package exercises.example7_1;
 
 class TLC {                    // (1) Top level class
 

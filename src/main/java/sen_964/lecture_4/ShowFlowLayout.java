@@ -1,4 +1,4 @@
-package lecture_4;
+package sen_964.lecture_4;
 // ShowFlowLayout.java: Demonstrate using FlowLayout
 
 import javax.swing.JButton;
