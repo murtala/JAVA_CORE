@@ -12,6 +12,15 @@ public class StringBufferDemo {
 		sb1.append(" Java Training");
 		
 		
+		
+String str2="This4 is s8amp10le";  /// cannot be modified
+		
+		
+		StringBuffer st=new StringBuffer("This is sample"); ///this can be modified... 
+		System.out.println(st.insert(7, "java"));
+		System.out.println(st.delete(5,7));	
+		
+		
 		System.out.println(sb);
 		System.out.println(sb1);
 		String str = sb.toString();

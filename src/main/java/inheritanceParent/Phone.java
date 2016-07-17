@@ -4,6 +4,13 @@ public class Phone {
 	public int number = 22;
 	public String model="Apple";
 
+	public Phone() {
+		
+	}
+	
+	public Phone(int a) {
+		
+	}
 	public void dial(int a) {
 		System.out.println("Dialing "+ a + " ..." );
 	}

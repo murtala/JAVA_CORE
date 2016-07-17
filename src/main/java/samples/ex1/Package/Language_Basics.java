@@ -16,7 +16,6 @@ public class Language_Basics {
      */
     public static void main(String[] args) {
 
-        Bicycle bike = new Bicycle();
         primitiveDatatypes();
         arrays();
         multiDimensionArray();

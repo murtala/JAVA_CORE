@@ -7,7 +7,7 @@ public interface OperateCar {
 	   // method signatures
 	   
 	   // An enum with values RIGHT, LEFT
-	 /*  int turn(Direction direction,
+	   int turn(Direction direction,
 	            double radius,
 	            double startSpeed,
 	            double endSpeed);
@@ -15,11 +15,16 @@ public interface OperateCar {
 	                   double startSpeed,
 	                   double endSpeed);
 	   int signalTurn(Direction direction,
-	                  boolean signalOn);*/
+	                  boolean signalOn);
 	   int getRadarFront(double distanceToCar,
 	                     double speedOfCar);
 	   int getRadarRear(double distanceToCar,
 	                    double speedOfCar);
 	    //     ......
 	   // more method signatures
+	   
+	   default boolean didItWork(int i, double x, String s) {
+		return false;
+	       // Method body 
+	   }
 }

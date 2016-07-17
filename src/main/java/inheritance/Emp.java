@@ -6,8 +6,6 @@ public class Emp {
 	String name;
 	String desig;
 	
-	
-	
 	public Emp(int no, String name, String desig) {
 		super();
 		this.no = no;

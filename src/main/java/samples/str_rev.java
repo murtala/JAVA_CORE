@@ -12,6 +12,10 @@ public class str_rev
 		{
 		 	System.out.print(str.charAt(i));
 		}
+		
+		//using sting buffer
+		StringBuffer myString = new StringBuffer("Testl23");
+		System .out.println(myString.reverse());
 
 	}
 
